@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandma's Bakery – Homemade Flavors & Fresh Pastries</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50 text-amber-950 font-sans antialiased">
+
+<!-- 1. NAVIGATION BAR -->
+<nav class="sticky top-0 z-50 bg-amber-50/90 backdrop-blur-md border-b border-amber-200/60 shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="#" class="text-2xl font-serif font-bold text-amber-900 tracking-wide">
+            Grandma's Bakery
+        </a>
+        <div class="hidden md:flex items-center space-x-8 font-medium text-amber-800">
+            <a href="#about" class="hover:text-amber-600 transition-colors">About Us</a>
+            <a href="#menu" class="hover:text-amber-600 transition-colors">Our Menu</a>
+            <a href="#location" class="hover:text-amber-600 transition-colors">Opening Hours & Location</a>
+        </div>
+        <a href="#menu" class="bg-amber-800 hover:bg-amber-900 text-amber-50 px-5 py-2.5 rounded-full font-medium transition-colors shadow-sm">
+            Book a Table
+        </a>
+    </div>
+</nav>
+
+<!-- 2. HERO SECTION -->
+<header class="relative h-[80vh] min-h-[500px] bg-cover bg-center flex items-center justify-center text-center px-4"
+        style="background-image: url('https://images.unsplash.com/photo-1574374752751-f511f816b69b?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');">
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <div class="relative z-10 max-w-3xl space-y-6 text-white">
+      <span class="text-amber-300 font-semibold tracking-widest uppercase text-sm">
+        Traditional Recipes & Daily Fresh Baking
+      </span>
+        <h1 class="text-4xl sm:text-6xl font-serif font-extrabold leading-tight">
+            Grandma's Bakery
+        </h1>
+        <p class="text-lg sm:text-xl text-amber-100 font-light max-w-2xl mx-auto leading-relaxed">
+            Step inside and rediscover the warm, delicious, and comforting flavors just like the ones made with love at grandma's house.
+        </p>
+        <div class="pt-4 flex justify-center gap-4">
+            <a href="#menu" class="bg-amber-600 hover:bg-amber-700 text-white font-medium px-6 py-3 rounded-full transition-colors shadow-lg">
+                Explore Our Menu
+            </a>
+            <a href="#location" class="border-2 border-amber-200 text-amber-100 hover:bg-amber-200 hover:text-amber-950 font-medium px-6 py-3 rounded-full transition-colors">
+                Visit Us
+            </a>
+        </div>
+    </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-6 py-16 space-y-24">
+
+    <!-- 3. FEATURED MENU SECTION -->
+    <section id="menu" class="space-y-12">
+        <div class="text-center space-y-3">
+            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-amber-900">
+                Our Family Favorites
+            </h2>
+            <p class="text-amber-800/80 max-w-xl mx-auto">
+                Every treat is baked fresh daily using traditional family recipes and wholesome ingredients.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <div class="bg-white rounded-2xl border border-amber-100 shadow-md hover:shadow-xl transition-shadow p-4 space-y-4">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
+                     alt="Homemade Bread"
+                     class="w-full aspect-square object-cover rounded-xl">
+                <div>
+                    <div class="flex justify-between items-start mb-1">
+                        <h3 class="font-bold text-lg text-amber-900">Grandma's Country Bread</h3>
+                        <span class="font-semibold text-amber-700">$5.50</span>
+                    </div>
+                    <p class="text-sm text-amber-800/70">Traditional sourdough bread baked with a crispy crust and soft center.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl border border-amber-100 shadow-md hover:shadow-xl transition-shadow p-4 space-y-4">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600"
+                     alt="Warm Croissant"
+                     class="w-full aspect-square object-cover rounded-xl">
+                <div>
+                    <div class="flex justify-between items-start mb-1">
+                        <h3 class="font-bold text-lg text-amber-900">Butter Croissant</h3>
+                        <span class="font-semibold text-amber-700">$3.20</span>
+                    </div>
+                    <p class="text-sm text-amber-800/70">Flaky, golden pastry made with real farm butter.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl border border-amber-100 shadow-md hover:shadow-xl transition-shadow p-4 space-y-4">
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600"
+                     alt="Classic Coffee"
+                     class="w-full aspect-square object-cover rounded-xl">
+                <div>
+                    <div class="flex justify-between items-start mb-1">
+                        <h3 class="font-bold text-lg text-amber-900">Classic Drip Coffee</h3>
+                        <span class="font-semibold text-amber-700">$3.50</span>
+                    </div>
+                    <p class="text-sm text-amber-800/70">Rich and smooth fresh coffee brewed just the traditional way.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl border border-amber-100 shadow-md hover:shadow-xl transition-shadow p-4 space-y-4">
+                <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?w=600"
+                     alt="Berry Pie"
+                     class="w-full aspect-square object-cover rounded-xl">
+                <div>
+                    <div class="flex justify-between items-start mb-1">
+                        <h3 class="font-bold text-lg text-amber-900">Old-Fashioned Berry Pie</h3>
+                        <span class="font-semibold text-amber-700">$4.80</span>
+                    </div>
+                    <p class="text-sm text-amber-800/70">Warm slice of homemade pie filled with ripe seasonal berries.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4. OPENING HOURS & LOCATION SECTION -->
+    <section id="location" class="bg-amber-100/60 rounded-3xl p-8 sm:p-12 border border-amber-200">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+            <div class="space-y-6">
+                <div class="space-y-2">
+                    <span class="text-amber-700 font-semibold text-sm uppercase tracking-wider">Welcome Home</span>
+                    <h2 class="text-3xl font-serif font-bold text-amber-950">Opening Hours & Location</h2>
+                </div>
+
+                <div class="space-y-3 border-l-2 border-amber-700 pl-4">
+                    <div>
+                        <p class="font-bold text-amber-900">Monday – Friday</p>
+                        <p class="text-amber-800/80">07:00 AM – 06:00 PM</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-amber-900">Saturday – Sunday</p>
+                        <p class="text-amber-800/80">08:00 AM – 04:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="space-y-1">
+                    <p class="font-bold text-amber-900">Address:</p>
+                    <p class="text-amber-800/80">124 Maple Street, Downtown</p>
+                    <p class="text-amber-800/80">Phone: +1 (555) 234-5678</p>
+                </div>
+            </div>
+
+            <div class="bg-amber-900 text-amber-50 rounded-2xl p-8 space-y-4 shadow-lg flex flex-col justify-between h-full min-h-[280px]">
+                <div class="space-y-2">
+                    <h3 class="text-2xl font-serif font-bold text-amber-200">Find Your Way to Us</h3>
+                    <p class="text-amber-100/80 text-sm leading-relaxed">
+                        Located in the heart of town, our cozy bakery is the perfect place to enjoy a warm cup of coffee and a slice of nostalgia.
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-amber-700/60 flex items-center justify-between text-xs text-amber-300">
+                    <span>📍 Conveniently accessible by public transport</span>
+                    <span class="font-bold">Google Maps ↗</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- 5. FOOTER -->
+<footer class="border-t border-amber-200 bg-amber-100/40 py-8 text-center text-sm text-amber-800/70">
+    <p>© 2026 Grandma's Bakery – All rights reserved. Built with Tailwind CSS.</p>
+</footer>
+
+</body>
+</html>
