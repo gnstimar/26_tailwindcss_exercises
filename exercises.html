@@ -75,10 +75,10 @@
         <h2 class="text-2xl font-bold mb-4">4. Circular Profile Badge</h2>
         <div class="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-gray-200 max-w-xs">
             <img
-                class="w-12 h-12 rounded-full object-cover"
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150"
-                alt="Profile picture"
-                >
+                    class="w-12 h-12 rounded-full object-cover"
+                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150"
+                    alt="Profile picture"
+            >
             <div>
                 <h4 class="font-bold text-gray-900">John Doe</h4>
                 <p class="text-sm text-gray-500">Software Engineer</p>
@@ -103,6 +103,202 @@
             </button>
         </div>
     </section>
+
+    <!-- Exercise 6 -->
+    <section id="ex-6">
+        <h2 class="text-2xl font-bold mb-4">6. Responsive Two-Column Layout</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+            <!--            Left side-->
+            <div class="space-y-4">
+                <h3 class="text-2xl font-bold text-gray-900">Modern Web Solution</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    We build fast, responsive and beautifully designed web applications.
+                </p>
+                <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded-lg transition-colors">
+                    Learn more
+                </button>
+            </div>
+
+            <!--            Right side-->
+            <div>
+                <img
+                        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600"
+                        alt="Coding laptop"
+                        class="rounded-lg shadow-md w-full object-cover"
+                >
+            </div>
+        </div>
+    </section>
+
+    <!--    Exercise 7-->
+    <section id="ex-7">
+        <h2 class="text-2xl font-bold mb-4">7. Product Grid</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden p-4">
+                <img
+                        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400"
+                        alt="Headphones"
+                        class="w-full h-48 object-cover rounded-lg mb-4"
+                >
+                <h4 class="font-bold text-gray-900">Wireless Headphones</h4>
+                <p class="text-blue-600 font-semibold mt-1">199.99 SEK</p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden p-4">
+                <img
+                        src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400"
+                        alt="Smartwatch"
+                        class="w-full h-48 object-cover rounded-lg mb-4"
+                >
+                <h4 class="font-bold text-gray-900">Smartwatch</h4>
+                <p class="text-blue-600 font-semibold mt-1">299.99 SEK</p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden p-4">
+                <img
+                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400"
+                        alt="Running shoes"
+                        class="w-full h-48 object-cover rounded-lg mb-4"
+                >
+                <h4 class="font-bold text-gray-900">Running Shoes</h4>
+                <p class="text-blue-600 font-semibold mt-1">399.99 SEK</p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden p-4">
+                <img
+                        src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400"
+                        alt="Perfume"
+                        class="w-full h-48 object-cover rounded-lg mb-4"
+                >
+                <h4 class="font-bold text-gray-900">Luxury Perfume</h4>
+                <p class="text-blue-600 font-semibold mt-1">399.99 SEK</p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden p-4">
+                <img
+                        src="https://images.unsplash.com/photo-1697659624511-920bc1811961?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                        alt="Sunglasses"
+                        class="w-full h-48 object-cover rounded-lg mb-4"
+                >
+                <h4 class="font-bold text-gray-900">Sunglasses</h4>
+                <p class="text-blue-600 font-semibold mt-1">499.99 SEK</p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden p-4">
+                <img
+                        src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400"
+                        alt="Vintage camera"
+                        class="w-full h-48 object-cover rounded-lg mb-4"
+                >
+                <h4 class="font-bold text-gray-900">Running Shoes</h4>
+                <p class="text-blue-600 font-semibold mt-1">89.99 SEK</p>
+            </div>
+        </div>
+    </section>
+
+    <!--    Exercise 8-->
+    <section id="ex-8">
+        <h2 class="text-2xl font-bold mb-4">8. Hero Section with Overlay</h2>
+        <div class="relative rounded-2xl overflow-hidden bg-cover bg-center h-96"
+             style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200');">
+            <div class="absolute inset-0 bg-black/50"></div>
+
+            <div class="relative z-10 h-full flex flex-col items-center justify-center text-center text-white p-6 space-y-4">
+                <h1 class="text-4xl md:text-5xl font-extrabold">Build Something Amazing</h1>
+                <p class="max-w-xl text-lg text-gray-200">
+                    Start creating your dream web application with Tailwind.
+                </p>
+                <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--    Exercise 9 -->
+    <section id="ex-9">
+        <h2 class="text-2xl font-bold mb-4">9. Pricing Table Comparison</h2>
+        <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-md text-center space-y-4">
+            <h3 class="text-xl font-bold text-gray-900">Basic</h3>
+            <p class="text-3xl font-extrabold">9 SEK<span class="text-sm font-normal text-gray-500">/mo</span></p>
+            <ul class="text-gray-600 text-sm space-x-2">
+                <li>1 User</li>
+                <li>10GB Storage</li>
+                <li>Basic Support</li>
+            </ul>
+            <button class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-2 rounded-lg transition-colors">
+                Choose Basic
+            </button>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-blue-500 shadow-md text-center space-y-4 scale-105 relative z-10">
+            <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">
+                Most Popular
+            </span>
+            <h3 class="text-xl font-bold text-gray-900">Pro</h3>
+            <p class="text-3xl font-extrabold">29 SEK<span class="text-sm font-normal text-gray-500">/mo</span></p>
+            <ul class="text-gray-600 text-sm space-x-2">
+                <li>5 User</li>
+                <li>50GB Storage</li>
+                <li>Priority Support</li>
+            </ul>
+            <button class="w-full bg-blue-600 hover:bg-blue-700 text-gray-800 font-semibold py-2 rounded-lg transition-colors">
+                Choose Pro
+            </button>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-md text-center space-y-4">
+            <h3 class="text-xl font-bold text-gray-900">Enterprise</h3>
+            <p class="text-3xl font-extrabold">99 SEK<span class="text-sm font-normal text-gray-500">/mo</span></p>
+            <ul class="text-gray-600 text-sm space-x-2">
+                <li>Unlimited User</li>
+                <li>500GB Storage</li>
+                <li>24/7 Dedicated Support</li>
+            </ul>
+            <button class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-2 rounded-lg transition-colors">
+                Choose Enterprise
+            </button>
+        </div>
+    </section>
+
+    <!--    Exercise 10 -->
+    <section id="ex-10">
+        <h2 class="text-2xl font-bold mb-4">10. Simple Navigation Bar</h2>
+        <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border border-gray-200 rounded-xl p-4 shadow-sm">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-cl font-extrabold text-blue-600">
+                    MyBrand
+                </a>
+                <div class="flex items-center gap-6">
+                    <a href="#" class="font-medium text-gray-700 hover:text-blue-500 transition-colors">Home</a>
+                    <a href="#" class="font-medium text-gray-700 hover:text-blue-500 transition-colors">About</a>
+                    <a href="#" class="font-medium text-gray-700 hover:text-blue-500 transition-colors">Services</a>
+                    <a href="#" class="font-medium text-gray-700 hover:text-blue-500 transition-colors">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <div class="p-6 bg-gray-100 rounded-xl mt-4 text-gray-500 text-center">
+            Scroll down to test the sticky backdrop-blur navigation effect.
+
+            Lorem Ipsum is simply dummy text of the printing and <br><br><br>
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy <br>
+            text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing
+            Library in London,<br><br><br>
+            took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.<br><br>
+            It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially
+            unchanged. <br>
+            It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus
+            PageMaker and Microsoft Word <br><br>
+            including versions of Lorem Ipsum.
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br><br><br><br><br><br>
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse <br>
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            <br>
+            officia deserunt mollit anim id est laborum."
+        </div>
+    </section>
+
 
 </div>
 </body>
